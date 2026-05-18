@@ -519,36 +519,10 @@
     <div class="img-block">
       <figure>
         <img src="/mnt/user-data/uploads/Captura_de_pantalla_2026-05-18_113759.png" alt="Robot processing and programming configuration"/>
-        <figcaption>Fig. 3 — Hardware setup and interface tracking routines designed by Team 5</figcaption>
       </figure>
     </div>
-    <pre><code><span class="cm">// Team 5 Robot — Sequential Track Navigation</span>
-<span class="cm">// Stage 2: Muscular System Arena · Group 221</span>
-
-<span class="kw">START</span>
-  <span class="fn">INITIALIZE</span> motors, sensors
-
-  <span class="cm">// Phase 1: Enter the muscular system map</span>
-  <span class="fn">MOVE_FORWARD</span>(distance = 30cm)
-  <span class="fn">TURN_RIGHT</span>(angle = 90°)
-  <span class="fn">MOVE_FORWARD</span>(distance = 20cm)
-
-  <span class="cm">// Phase 2: Identify inflamed tissue zone (Myositis)</span>
-  <span class="fn">STOP_ALL_MOTORS</span>()
-  <span class="fn">TRIGGER_SIGNAL</span>()    <span class="cm">// LED/Buzzer indicators show target zone</span>
-  <span class="fn">WAIT_DELAY</span>(time = 2s)
-
-  <span class="cm">// Phase 3: Deliver treatment simulation</span>
-  <span class="fn">MOVE_FORWARD</span>(distance = 15cm)
-  <span class="fn">TURN_LEFT</span>(angle = 90°)
-  <span class="fn">MOVE_FORWARD</span>(distance = 25cm)
-
-  <span class="cm">// Phase 4: Exit track zone</span>
-  <span class="fn">TURN_RIGHT</span>(angle = 90°)
-  <span class="fn">MOVE_FORWARD</span>(distance = 20cm)
-  <span class="fn">STOP_ALL_MOTORS</span>()
-<span class="kw">END</span></code></pre>
-
+<video width="640" height="360" controls autoplay muted loop>
+  <source src="My folder/Funcionamiento.mp4"/>
     <hr class="div"/>
     <p style="font-size:0.8rem; font-weight:bold; text-transform:uppercase; color:var(--text-muted); margin-bottom:1rem;">Process Flowchart</p>
     <div class="flowchart">
